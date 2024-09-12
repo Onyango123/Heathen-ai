@@ -50,3 +50,7 @@ def predict_sentiment(text):
 print(predict_sentiment('I absolutely loved this movie! It was fantastic'))
 print(predict_sentiment('It was a terrible film. I hated it.'))
 print(predict_sentiment('The movie was okay, nothing special.'))
+ 
+
+def otieno():
+    input = input('Jaluo')
