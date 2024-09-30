@@ -1,6 +1,4 @@
 #sentiment analysis project
-# Step 1: Install all necessary libraries
-    #!pip install nltk pandas scikit-learn
 import nltk
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
@@ -47,10 +45,7 @@ def predict_sentiment(text):
     return prediction[0]
 
 #Test the prediction function
-print(predict_sentiment('I absolutely loved this movie! It was fantastic'))
-print(predict_sentiment('It was a terrible film. I hated it.'))
-print(predict_sentiment('The movie was okay, nothing special.'))
- 
+print(predict_sentiment('That was a crazy movie my G'))
+print(predict_sentiment('that movie was the best'))
 
-def otieno():
-    input = input('Jaluo')
+#creating an interface to take user input
